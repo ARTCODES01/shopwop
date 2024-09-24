@@ -109,7 +109,6 @@ const ProductsList: React.FC<ProductsListProps> = ({ products }) => {
         currency: buyProduct?.currency, // Product currency
         value: buyProduct?.price, // Product price
         email: deliveryEmail, // Pass the customer's email
-        return_url: "https://api.xtremez.me/api/v1/client-web/917131ae-2547-4a58-b345-574e135f934f/sellix", // Redirect URL after payment
         // custom_fields: customFields, // Custom fields data
       },
       {
